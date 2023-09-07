@@ -104,3 +104,32 @@ body{
     margin-top: 10px;
     display: none;
 }
+
+@media screen and (max-width: 390px){
+.search{
+    width: 100%;
+}
+.search button{
+padding: 0 5px;
+margin-left: -10px;
+height: 35px;
+border: 0;
+outline: 0;
+}
+ .search img{
+width: 5px;
+height: 15px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.details .col{
+   padding: 25px 0;
+    align-items: center;
+}
+
+}
